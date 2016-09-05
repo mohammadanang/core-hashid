@@ -41,7 +41,7 @@ trait HashableId
      *
      * @return \Hashids\Hashids
      */
-    public function hashIds()
+    protected function hashIds()
     {
         /*
          * HashId repository class
